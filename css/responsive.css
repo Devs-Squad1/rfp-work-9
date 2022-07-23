@@ -1,16 +1,15 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
- 
   .ipad-area {
     display: none;
   }
-  .ipad-logo{
+  .ipad-logo {
     display: none;
   }
-  .responsive-footer{
+  .responsive-footer {
     display: none;
   }
-  .about-accordion{
+  .about-accordion {
     display: none;
   }
   .ipad-block {
@@ -20,28 +19,26 @@
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
   .ipad-area {
     display: none;
   }
-  .ipad-logo{
+  .ipad-logo {
     display: none;
   }
-  .responsive-footer{
+  .responsive-footer {
     display: none;
   }
-  .about-accordion{
+  .about-accordion {
     display: none;
   }
   .ipad-block {
     display: none;
   }
- 
 }
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-/*====================================================
+  /*====================================================
                    HEADER RESPONSIVE
 ======================================================*/
   .nav-toggle-label {
@@ -61,7 +58,7 @@
     transform: translateX(100%);
     display: none;
   }
- 
+
   .navigation li {
     display: block;
     margin-top: 10px;
@@ -99,33 +96,33 @@
   .middle-menu-text {
     display: block;
   }
-/*====================================================
+  /*====================================================
                   FOOTER RESPONSIVE
 ======================================================*/
-.fw{
-  font-weight: 600;
-}
-.down-menu{
-	margin-bottom: -180px !important;
-}
-.dropdown-menu.down-menu.show li a {
-  text-decoration: none;
-}
-.footer-hide{
-  display: none;
-}
-.responsive-footer{
-  display: flex;
-}
-.dropdown-menu {
-	border: none;
-}
-.ipad-logo{
-  display: block;
-}
-.footer-logo{
-  display: none;
-}
+  .fw {
+    font-weight: 600;
+  }
+  .down-menu {
+    margin-bottom: -180px !important;
+  }
+  .dropdown-menu.down-menu.show li a {
+    text-decoration: none;
+  }
+  .footer-hide {
+    display: none;
+  }
+  .responsive-footer {
+    display: flex;
+  }
+  .dropdown-menu {
+    border: none;
+  }
+  .ipad-logo {
+    display: block;
+  }
+  .footer-logo {
+    display: none;
+  }
   .footer-navigation {
     display: none;
   }
@@ -136,120 +133,119 @@
     display: none;
   }
 
-
-/*====================================================
+  /*====================================================
             INDEX RESPONSIVE
 ======================================================*/
-/* slider  */
-.slider-active .slick-dots {
-  margin-top: 15px;
-} 
- 
- /* resource */
- .resource-area {
-  display: block;
-}
-.resource-items-container {
-  display: block;
-}
-.resource-item img {
-  height: auto;
-}
-.resource-item {
-  width: 45%;
-  height: 150px;
-}
-.resource-item2 {
-  width: 45%;
-}
-/* governance */
-.governance-container {
-  display: block;
-}
-.governance-item {
-  display: flex;
-  text-align: center;
-  padding: 10px;
-}
-/* security */
-.security-items {
-  display: block;
-}
-.security-item {
-  display: flex;
-  margin-bottom: 20px;
-  text-align: left;
-}
-.section-title .color-title {
-  font-size: 40px;
-  padding: 10px 165px;
-} 
-/* budget ipad device */
-.budget-area{
-display: none;
-}
-.ipad-top-text span {
-color: #F58220;
-font-weight: 400;
-}
-.ipad-bottom-text span {
-color: #F58220;
-font-weight: 400;
-}
-.ipad-top {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.ipad-bottom img{
-padding: 10px 40px;
-}
-.ipad-bottom {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.ipad-bottom-text {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.ipad-bottom-text p {
-padding: 0 293px;
-text-align: center;
-}
-.ipad-top-text p {
-padding: 0 270px;
-text-align: center;
-}
-.ipad-area {
-padding: 50px 0;
-}
-/* unlock */
-.unlock-items {
-  display: block;
-}
-.unlock-items {
-  grid-template-columns: repeat(1, 1fr);
-}
-/* socio */
-.socio-items {
-  display: block;
-}
-.socio-item {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 25px;
-  margin-bottom: 15px;
-  align-items: center;
-  justify-content: flex-start;
-}
-.socio-item img {
-  height: 70px;
-}
+  /* slider  */
+  .slider-active .slick-dots {
+    margin-top: 15px;
+  }
+
+  /* resource */
+  .resource-area {
+    display: block;
+  }
+  .resource-items-container {
+    display: block;
+  }
+  .resource-item img {
+    height: auto;
+  }
+  .resource-item {
+    width: 45%;
+    height: 150px;
+  }
+  .resource-item2 {
+    width: 45%;
+  }
+  /* governance */
+  .governance-container {
+    display: block;
+  }
+  .governance-item {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+  }
+  /* security */
+  .security-items {
+    display: block;
+  }
+  .security-item {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .section-title .color-title {
+    font-size: 40px;
+    padding: 10px 165px;
+  }
+  /* budget ipad device */
+  .budget-area {
+    display: none;
+  }
+  .ipad-top-text span {
+    color: #f58220;
+    font-weight: 400;
+  }
+  .ipad-bottom-text span {
+    color: #f58220;
+    font-weight: 400;
+  }
+  .ipad-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ipad-bottom img {
+    padding: 10px 40px;
+  }
+  .ipad-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ipad-bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ipad-bottom-text p {
+    padding: 0 293px;
+    text-align: center;
+  }
+  .ipad-top-text p {
+    padding: 0 270px;
+    text-align: center;
+  }
+  .ipad-area {
+    padding: 50px 0;
+  }
+  /* unlock */
+  .unlock-items {
+    display: block;
+  }
+  .unlock-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* socio */
+  .socio-items {
+    display: block;
+  }
+  .socio-item {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .socio-item img {
+    height: 70px;
+  }
   /* environment */
   .environment-item {
     margin-bottom: 15px;
@@ -263,44 +259,44 @@ padding: 50px 0;
   /*====================================================
                ABOUT RESPONSIVE
 ======================================================*/
-.intro-area {
-	display: flex;
-	flex-direction: column-reverse;
-  padding-top: 30px;
-}
-.description-area {
-	padding: 0px 40px;
-	margin-top: 50px;
-}
-.about-accordion{
-  display: none;
-}
+  .intro-area {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 30px;
+  }
+  .description-area {
+    padding: 0px 40px;
+    margin-top: 50px;
+  }
+  .about-accordion {
+    display: none;
+  }
 
   /*====================================================
                PORTAL RESPONSIVE
 ======================================================*/
-    .notice-fl {
-      display: block;
-    }
-    .notice-right {
-      padding-left: 0;
-    }
-    .register-input input {
-      width: 100%;
-    }
-    .register-content {
-      padding: 0 40px;
-    }
+  .notice-fl {
+    display: block;
+  }
+  .notice-right {
+    padding-left: 0;
+  }
+  .register-input input {
+    width: 100%;
+  }
+  .register-content {
+    padding: 0 40px;
+  }
   /*====================================================
                  IREEP RESPONSIVE
 ======================================================*/
-.energy-content {
-	padding: 0 20px;
-}
-.energy-img {
-	width: 75%;
-	margin: 0 auto;
-}
+  .energy-content {
+    padding: 0 20px;
+  }
+  .energy-img {
+    width: 75%;
+    margin: 0 auto;
+  }
   .energy-img img {
     width: 100%;
   }
@@ -350,7 +346,7 @@ padding: 50px 0;
   .upload-btn button {
     width: 105px;
   }
-    /*====================================================
+  /*====================================================
                  STACKHOLDER RESPONSIVE
 ======================================================*/
   .stkhldr-box h4 {
@@ -359,31 +355,43 @@ padding: 50px 0;
   .Stakeholders-boxs {
     padding: 0;
   }
-  .fl{
+  .fl {
     display: flex;
   }
-  .mb-none{
+  .mb-none {
     display: none;
   }
-  .ipad-block{
+  .ipad-block {
     display: block;
   }
   .form-select-op {
     width: 95%;
   }
-/* login-register  */
-.register-box.container {
-	display: block;
-}
- 
+  /* login-register  */
+  .register-box.container {
+    display: block;
+  }
+  /* submission process  */
+  .sub-process-right {
+    box-shadow: -6.432px 21.039px 38px 0px rgba(0, 0, 0, 0.14);
+    position: absolute;
+    left: 482px;
+    padding: 60px 31px 50px 31px;
+    height: 100vh;
+  }
+  .sub-process-text h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
 }
 
 /* small mobile :320px. */
-@media (min-width: 320px) and (max-width: 767px){
- /*====================================================
+@media (min-width: 320px) and (max-width: 767px) {
+  /*====================================================
                  HEADER RESPONSIVE
 ======================================================*/
-   .middle-menu {
+  .middle-menu {
     display: block;
   }
   .middle-menu-text {
@@ -469,34 +477,34 @@ padding: 50px 0;
   /*====================================================
                  FOOTER RESPONSIVE
 ======================================================*/
-.fw{
-  font-weight: 600;
-  padding-right: 7px;
-}
-.down-menu {
-	margin-top: -200px !important;
-}
-.dropdown-menu.down-menu.show li a {
-	text-decoration: none;
-}
-.footer-hide{
-  display: none;
-}
-.responsive-footer{
-  display: flex;
-}
-.dropdown-menu {
-	border: none;
-}
-element {
-	margin-bottom: -186px;
-}
-.ipad-logo{
-  display: block;
-}
-.footer-logo{
-  display: none;
-}
+  .fw {
+    font-weight: 600;
+    padding-right: 7px;
+  }
+  .down-menu {
+    margin-top: -200px !important;
+  }
+  .dropdown-menu.down-menu.show li a {
+    text-decoration: none;
+  }
+  .footer-hide {
+    display: none;
+  }
+  .responsive-footer {
+    display: flex;
+  }
+  .dropdown-menu {
+    border: none;
+  }
+  element {
+    margin-bottom: -186px;
+  }
+  .ipad-logo {
+    display: block;
+  }
+  .footer-logo {
+    display: none;
+  }
   .footer-navigation li a {
     font-size: 10px;
   }
@@ -516,8 +524,8 @@ element {
   /*====================================================
                  INDEX RESPONSIVE
 ======================================================*/
-   /* slider */
-   .slider-content h1 {
+  /* slider */
+  .slider-content h1 {
     font-size: 28px;
   }
   .slider-content p {
@@ -526,7 +534,7 @@ element {
   .access-heading h2 {
     font-size: 28px;
   }
-   .slick-slide img {
+  .slick-slide img {
     display: none;
   }
   .slider-content {
@@ -537,7 +545,7 @@ element {
   .slider-active .slick-dots {
     margin-top: 15px;
     padding: 0;
-  } 
+  }
   /* brand  */
   .brand-area img {
     margin-bottom: 25px;
@@ -567,7 +575,7 @@ element {
   .resource-items {
     grid-template-columns: repeat(1, 1fr);
   }
-  .resource-item{
+  .resource-item {
     width: 100%;
     height: auto;
   }
@@ -594,7 +602,7 @@ element {
     font-size: 16px;
     margin-left: 8px;
   }
-  
+
   .governance-container {
     display: block;
   }
@@ -625,15 +633,15 @@ element {
     padding: 0;
   }
   /* budget */
-  .budget-area{
+  .budget-area {
     display: none;
   }
   .ipad-top-text span {
-    color: #F58220;
+    color: #f58220;
     font-weight: 400;
   }
   .ipad-bottom-text span {
-    color: #F58220;
+    color: #f58220;
     font-weight: 400;
   }
 
@@ -643,8 +651,8 @@ element {
     justify-content: center;
     align-items: center;
   }
-  .ipad-bottom img{
-   padding: 0;
+  .ipad-bottom img {
+    padding: 0;
   }
   .ipad-bottom {
     display: flex;
@@ -698,50 +706,50 @@ element {
   .environment-item p {
     padding-right: 5px;
   }
-/*====================================================
+  /*====================================================
                ABOUT RESPONSIVE
 ======================================================*/
-.intro-area {
-	display: flex;
-	flex-direction: column-reverse;
-}
-.intro-img img {
-	width: 100%;
-}
-.intro-text h2 {
-	font-size: 20px;
-	padding: 10px 10px;
-  margin-bottom: 10px;
-}
-.intro-text p {
-	padding: 10px;
-}
-/* description  */
-.description-text {
-	display: block;
-	margin-bottom: 20px;
-}
-.description-area {
-	padding: 0 30px;
-	margin-top: 50px;
-}
-.description-area h2 {
-	font-size: 18px;
-}
-.description-text p {
-	text-align: justify;
-}
+  .intro-area {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .intro-img img {
+    width: 100%;
+  }
+  .intro-text h2 {
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+  }
+  .intro-text p {
+    padding: 10px;
+  }
+  /* description  */
+  .description-text {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .description-area {
+    padding: 0 30px;
+    margin-top: 50px;
+  }
+  .description-area h2 {
+    font-size: 18px;
+  }
+  .description-text p {
+    text-align: justify;
+  }
 
-.tab{
-  display: none;
-}
-.accordion-button:focus {
-	box-shadow: none;
-}
-/*====================================================
+  .tab {
+    display: none;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  /*====================================================
                  PORTAL RESPONSIVE
 ======================================================*/
-   .register-input-area h2 {
+  .register-input-area h2 {
     font-size: 18px;
   }
   .register-box.container {
@@ -750,7 +758,7 @@ element {
   }
   .procurement-area h2 {
     font-size: 22px;
-   }
+  }
   .notice-fl {
     display: block;
   }
@@ -838,7 +846,7 @@ element {
   .environment-img img {
     display: none;
   }
- /*====================================================
+  /*====================================================
                  USER RESPONSIVE
 ======================================================*/
   .user-fast-box {
@@ -915,7 +923,7 @@ element {
   .single-info {
     display: block;
   }
- /*====================================================
+  /*====================================================
                  NEW USER PAGE RESPONSIVE
 ======================================================*/
 
@@ -927,7 +935,7 @@ element {
   .user-tab-info-box h2 {
     font-size: 20px;
   }
- /*====================================================
+  /*====================================================
                  STACKHOLDER RESPONSIVE
 ======================================================*/
   .button-list ul li {
@@ -937,59 +945,60 @@ element {
   .hero__search--bar input {
     font-size: 12px;
   }
-.stkhldr-box h4 {
-  font-size: 20px;
-}
-.stkhldr-box h5 {
-  font-size: 14px;
-}
+  .stkhldr-box h4 {
+    font-size: 20px;
+  }
+  .stkhldr-box h5 {
+    font-size: 14px;
+  }
 
-
-.hero-content h1 {
-  font-size: 26px;
+  .hero-content h1 {
+    font-size: 26px;
+  }
+  .hero__search--bar {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .filter__Fx {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .filter__single--select {
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  .filter__title {
+    margin-bottom: 10px;
+  }
+  .filter__single--select.slect--sec {
+    width: 100%;
+  }
+  .filter__single--select.select--thr {
+    width: 100%;
+  }
 }
-.hero__search--bar {
-  width: 100%;
-  margin-top: 20px;
-}
-.filter__Fx {
-  flex-wrap: wrap;
-  width: 100%;
-}
-.filter__single--select {
-  margin-bottom: 12px;
-  width: 100%;
-}
-.filter__title {
-  margin-bottom: 10px;
-}
-.filter__single--select.slect--sec {
-  width: 100%;
-}
-.filter__single--select.select--thr {
-	width: 100%;
-}
-
-}
-
 
 /* header  */
 @media (max-width: 1000px) {
-  .bar1, .bar2, .bar3 {
+  .bar1,
+  .bar2,
+  .bar3 {
     width: 30px;
     height: 4px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
   }
-  
+
   .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
   }
-  
-  .change .bar2 {opacity: 0;}
-  
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
@@ -997,21 +1006,25 @@ element {
 }
 /* footer  */
 @media (max-width: 1000px) {
-  .bar4, .bar5, .bar6 {
+  .bar4,
+  .bar5,
+  .bar6 {
     width: 28px;
     height: 4px;
     background-color: #fff;
     margin: 6px 0;
     transition: 0.4s;
   }
-  
+
   .change .bar4 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
   }
-  
-  .change .bar5 {opacity: 0;}
-  
+
+  .change .bar5 {
+    opacity: 0;
+  }
+
   .change .bar6 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
@@ -1050,25 +1063,25 @@ element {
   .regi-area {
     padding-top: 20px;
     padding-bottom: 100px;
-  } 
+  }
 
   .three-fl {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
-  .fl{
+  .fl {
     display: block;
   }
-.reg-fl {
-	width: 100%;
-}
-.form-select-op {
-	width: 100%;
-}
-.register-box.container {
-	display: block;
-}
+  .reg-fl {
+    width: 100%;
+  }
+  .form-select-op {
+    width: 100%;
+  }
+  .register-box.container {
+    display: block;
+  }
 }
 
 /* 00000000000000000000000000 */
@@ -1096,5 +1109,22 @@ element {
   }
   #toggle2-new {
     right: 10px;
+  }
+  .sub-process-text h1 {
+    font-size: 22px;
+  }
+  .sub-process-right {
+    position: unset;
+    padding: 20px;
+    box-shadow: none;
+  }
+  .sub-process-top h3 {
+    font-size: 20px;
+  }
+  .sub-fl {
+    display: block;
+  }
+  .sub-process-text p {
+    font-size: 16px;
   }
 }
