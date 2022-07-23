@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Page</title>
+    <!-- google fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+
+    <!-- <link rel="stylesheet" href="./css/ireep-user.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header id="home">
+        <!-- middle header -->
+        <div class="middle-header">
+            <div class="container">
+                <div class="middle-menu">
+                    <div class="middle-menu-text font-top">
+                        <div>
+                            <i class="fas fa-phone-alt"></i><a href="#">+27 10 335 1090</a>
+                        </div>
+                        <div>
+                            <i class="far fa-envelope"></i><a href="#">info@irerep.co.za</a>
+                        </div>
+                    </div>
+                    <div class="right-middle-menu">
+                        <div class="right-middle-menuber">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+
+                            <div class="search-box">
+                                <input type="search" name="" id="">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom header -->
+    
+        <nav class="container bottom header">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <ul class="navigation" id="nav">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="elements.html">ELEMENTS</a></li>
+                <li><a href="press.html">PRESS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="log-icon">
+                <a href="#" class="header-btn">Logout</a>
+                <img src="img/card-img.png" alt="">
+                <div class="toggleButton" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- .user-area-start -->
+    <div class="user-area">
+        <div class="user-con">
+            <div class="user-fast-box">
+                <div class="user-img">
+                    <img src="img/card-img.png" alt="">
+                </div>
+                <div class="user-containt">
+                    <h3>Name Surname</h3>
+                    <span>company</span>
+                </div>
+            </div>
+        </div>
+        <div class="container wd">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="user-fl">
+                        <div class="user-tab">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">Overview</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">Contact</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-contact" type="button" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false">Settings</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <div class="user-tab-fl">
+                                        <div class="tab-area">
+                                            <div class="user-tab-info-box">
+                                                <h2>General Profile Settings</h2>
+                                                <table class="table-responsive" style="width:100%">
+                                                    <tr>
+                                                        <td>Name</td>
+                                                        <td class="text-dark fw">Fast Name Surname</td>
+                                                        <td style="text-align: right;"><a href="#">Edit</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Phone</td>
+                                                        <td  class="text-dark fw">011 012 3456</td>
+                                                        <td style="text-align: right;"><a href="#">Edit</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Email</td>
+                                                        <td  class="text-dark fw">example@gmail.com</td>
+                                                        <td style="text-align: right;"><a href="#">Edit</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Industry</td>
+                                                        <td  class="text-dark fw">Energy</td>
+                                                        <td style="text-align: right;"><a href="#">Edit</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Experience</td>
+                                                        <td class="text-dark fw">8 Years</td>
+                                                        <td style="text-align: right;"><a href="#">Edit</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Entity Size</td>
+                                                        <td class="text-dark fw">Qse</td>
+                                                        <td style="text-align: right;"><a href="#">Edit</a></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                       
+                                        </div>
+                                       
+                                 <div class="tab-area">
+                                    <div class="user-tab-info-box">
+                                        <h2>Account Settings</h2>
+                                        <table class="table-responsive" style="width:100%">
+                                       
+                                            <tr>
+                                                <td>Email</td>
+                                                <td  class="text-dark fw">example@gmail.com</td>
+                                                <td style="text-align: right;"><a href="#">Edit</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td> Old Password	</td>
+                                                <td class="text-dark fw ">
+                                                    <div class="new-user-input">
+                                                        <input class="bg-white" type="password" name="" id="passwordOld" placeholder="**********">
+                                                        <div id="toggleOld" onclick="showHide1();"></div>
+                                                        <td style="text-align: right;"><a href="#"></a></td>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>New Password</td>
+                                                <td class="text-dark fw bg-gray">
+                                                    <div class="new-user-input">
+                                                        <input type="password" name=""id="password">
+                                                        <div id="toggle-new" onclick="showHide();"></div>
+                                                    </div>
+                                                   
+                                                </td>
+                                                <td style="text-align: right;"><a href="#"></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Confirm New Password</td>
+                                                <td class="text-dark fw bg-gray">
+                                                    <div class="new-user-input">
+                                                        <input type="password" name="" id="password2">
+                                                        <div id="toggle2-new" onclick="showHides();"></div>
+                                                    </div>
+                                                </td>
+                                              
+                                            </tr>
+                                        </table>
+                                        <a href=""><button class="change-btn">Change Password</button></a>
+                                    </div>
+                                 </div>
+                                    </div>
+                                </div>
+                                
+                                 
+                            
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- user-area-end -->
+
+
+    <!-- footer start -->
+    <footer>
+        <div id="footer-area ">
+            <div class=" footer">
+                <nav class="container footer-hide">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="./img/footer-logo.png" alt=""></a>
+                    </div>
+                  
+                    <ul class="footer-navigation" id="footer-nav">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="elements.html">ELEMENTS</a></li>
+                        <li><a href="press.html">PRESS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    <div class="right-middle-menu">
+                        <div class="footer-right-middle-menuber">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                </nav>
+
+                <nav class="container responsive-footer">
+                    <div class="ipad-logo">
+                        <a href="index.html"><img src="./img/ipad-logo.png" alt=""></a>
+                    </div>
+                    <div class="dropdown">
+                        <div class="dropdown-toggle" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="bar4"></div>
+                            <div class="bar5"></div>
+                            <div class="bar6"></div>
+                        </div>
+                        <ul class="dropdown-menu down-menu" aria-labelledby="dropdownMenu2">
+                          <li>
+                              <a href="about.html"><button class="dropdown-item fw" type="button">ABOUT</button></a>
+                         </li>
+                          <li>
+                            <a href="elements.html"> <button class="dropdown-item fw" type="button">ELEMENTS</button></a>
+                         </li>
+                          <li>
+                              <a href="press.html"><button class="dropdown-item fw" type="button">PRESS</button></a>
+                         </li>
+                          <li>
+                             <a href="contact.html"> <button class="dropdown-item fw" type="button">CONTACT</button></a>
+                          </li>
+                        </ul>
+                      </div>
+                </nav>
+            </div>
+        </div>
+        <!-- footer-copyrights -->
+        <div class="copyrights footer-bottom">
+            <div class="copyrights container">
+                <div id="footer-copyrights">
+                    <p>Copyright © 2021 Integrated Renewable Energy and Resource Efficiency Program. All rights
+                        reserved.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#home" id="back-to-top" class="back-to-top" title="home" role="button">
+            <!-- <i class="fa fa-angle-up"></i> -->
+        </a>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="./js/main.js"></script>
+
+
+    <script type="text/javascript">
+
+        const password1 = document.getElementById('passwordOld');
+        const toggle1 = document.getElementById('toggleOld');
+    
+        function showHide1(){
+            if (password1.type === 'password') {
+                password1.setAttribute('type', 'text');
+                toggle1.classList.add('hide')
+            }
+            else{
+               password1.setAttribute('type', 'password');
+                toggle1.classList.remove('hide')
+            }
+        }
+    
+       </script>
+    <script type="text/javascript">
+
+        const password = document.getElementById('password');
+        const toggle = document.getElementById('toggle-new');
+    
+        function showHide(){
+            if (password.type === 'password') {
+                password.setAttribute('type', 'text');
+                toggle.classList.add('hide')
+            }
+            else{
+               password.setAttribute('type', 'password');
+                toggle.classList.remove('hide')
+            }
+        }
+    
+       </script>
+       
+          <script type="text/javascript">
+
+            const passwords = document.getElementById('password2');
+            const toggles = document.getElementById('toggle2-new');
+        
+            function showHides(){
+                if (passwords.type === 'password') {
+                    passwords.setAttribute('type', 'text');
+                    toggles.classList.add('hide')
+                }
+                else{
+                   passwords.setAttribute('type', 'password');
+                    toggles.classList.remove('hide')
+                }
+            }
+        
+           </script>
+</body>
+
+</html>

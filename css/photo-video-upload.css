@@ -1,0 +1,23 @@
+.dark-blue-bg {
+  background-color: #0C4A7C;
+}
+
+.drag-area.active{
+  border: 2px solid #fff;
+}
+
+.vid {
+  position: relative;
+}
+
+.vid-btn {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  display: none;
+  margin: 5px;
+}
+
+.vid:hover .vid-btn {
+  display: block;
+}

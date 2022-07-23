@@ -1,0 +1,1100 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+  .ipad-area {
+    display: none;
+  }
+  .ipad-logo{
+    display: none;
+  }
+  .responsive-footer{
+    display: none;
+  }
+  .about-accordion{
+    display: none;
+  }
+  .ipad-block {
+    display: none;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .ipad-area {
+    display: none;
+  }
+  .ipad-logo{
+    display: none;
+  }
+  .responsive-footer{
+    display: none;
+  }
+  .about-accordion{
+    display: none;
+  }
+  .ipad-block {
+    display: none;
+  }
+ 
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+/*====================================================
+                   HEADER RESPONSIVE
+======================================================*/
+  .nav-toggle-label {
+    display: block;
+  }
+  .navigation {
+    position: absolute;
+    width: 199px;
+    top: 185px;
+    right: 0;
+    z-index: 99;
+    margin: 0;
+    background: #fff;
+    transform-origin: right;
+    transition: 0.3s linear;
+    text-align: center;
+    transform: translateX(100%);
+    display: none;
+  }
+ 
+  .navigation li {
+    display: block;
+    margin-top: 10px;
+    padding: 6px 20px;
+    text-align: left;
+    border-bottom: 0;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    padding: 0;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+  }
+  .navigation.active {
+    transform: translateX(0);
+    display: block;
+  }
+  .action .menu.active {
+    width: 300px;
+  }
+
+  .logo img {
+    max-width: 165px;
+  }
+  .log {
+    margin-left: 109px;
+  }
+  .log-icon img {
+    margin-right: 17px;
+  }
+  .middle-menu-text {
+    display: block;
+  }
+/*====================================================
+                  FOOTER RESPONSIVE
+======================================================*/
+.fw{
+  font-weight: 600;
+}
+.down-menu{
+	margin-bottom: -180px !important;
+}
+.dropdown-menu.down-menu.show li a {
+  text-decoration: none;
+}
+.footer-hide{
+  display: none;
+}
+.responsive-footer{
+  display: flex;
+}
+.dropdown-menu {
+	border: none;
+}
+.ipad-logo{
+  display: block;
+}
+.footer-logo{
+  display: none;
+}
+  .footer-navigation {
+    display: none;
+  }
+  .footer-navigation li a {
+    font-size: 10px;
+  }
+  .footer-right-middle-menuber {
+    display: none;
+  }
+
+
+/*====================================================
+            INDEX RESPONSIVE
+======================================================*/
+/* slider  */
+.slider-active .slick-dots {
+  margin-top: 15px;
+} 
+ 
+ /* resource */
+ .resource-area {
+  display: block;
+}
+.resource-items-container {
+  display: block;
+}
+.resource-item img {
+  height: auto;
+}
+.resource-item {
+  width: 45%;
+  height: 150px;
+}
+.resource-item2 {
+  width: 45%;
+}
+/* governance */
+.governance-container {
+  display: block;
+}
+.governance-item {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+}
+/* security */
+.security-items {
+  display: block;
+}
+.security-item {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.section-title .color-title {
+  font-size: 40px;
+  padding: 10px 165px;
+} 
+/* budget ipad device */
+.budget-area{
+display: none;
+}
+.ipad-top-text span {
+color: #F58220;
+font-weight: 400;
+}
+.ipad-bottom-text span {
+color: #F58220;
+font-weight: 400;
+}
+.ipad-top {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.ipad-bottom img{
+padding: 10px 40px;
+}
+.ipad-bottom {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.ipad-bottom-text {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.ipad-bottom-text p {
+padding: 0 293px;
+text-align: center;
+}
+.ipad-top-text p {
+padding: 0 270px;
+text-align: center;
+}
+.ipad-area {
+padding: 50px 0;
+}
+/* unlock */
+.unlock-items {
+  display: block;
+}
+.unlock-items {
+  grid-template-columns: repeat(1, 1fr);
+}
+/* socio */
+.socio-items {
+  display: block;
+}
+.socio-item {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 25px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.socio-item img {
+  height: 70px;
+}
+  /* environment */
+  .environment-item {
+    margin-bottom: 15px;
+  }
+  .environment-box {
+    display: block;
+  }
+  .environment-item p {
+    padding-right: 5px;
+  }
+  /*====================================================
+               ABOUT RESPONSIVE
+======================================================*/
+.intro-area {
+	display: flex;
+	flex-direction: column-reverse;
+  padding-top: 30px;
+}
+.description-area {
+	padding: 0px 40px;
+	margin-top: 50px;
+}
+.about-accordion{
+  display: none;
+}
+
+  /*====================================================
+               PORTAL RESPONSIVE
+======================================================*/
+    .notice-fl {
+      display: block;
+    }
+    .notice-right {
+      padding-left: 0;
+    }
+    .register-input input {
+      width: 100%;
+    }
+    .register-content {
+      padding: 0 40px;
+    }
+  /*====================================================
+                 IREEP RESPONSIVE
+======================================================*/
+.energy-content {
+	padding: 0 20px;
+}
+.energy-img {
+	width: 75%;
+	margin: 0 auto;
+}
+  .energy-img img {
+    width: 100%;
+  }
+  .area-press {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .press-content p {
+    margin-left: 10px;
+  }
+  .press-content {
+    margin-top: 10px;
+    margin-left: 14px;
+  }
+  .press-content a {
+    color: #006635;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .press-right-title {
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .environment-img img {
+    display: none;
+  }
+  .main-energy {
+    display: block;
+  }
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*====================================================
+                 USER RESPONSIVE
+======================================================*/
+  .up-view a {
+    width: 110%;
+  }
+  .user-containt h3 {
+    font-size: 32px;
+  }
+  .upload-fl input {
+    padding: 0 10px;
+  }
+  .upload-btn {
+    right: 10px;
+  }
+  .upload-btn button {
+    width: 105px;
+  }
+    /*====================================================
+                 STACKHOLDER RESPONSIVE
+======================================================*/
+  .stkhldr-box h4 {
+    font-size: 19px;
+  }
+  .Stakeholders-boxs {
+    padding: 0;
+  }
+  .fl{
+    display: flex;
+  }
+  .mb-none{
+    display: none;
+  }
+  .ipad-block{
+    display: block;
+  }
+  .form-select-op {
+    width: 95%;
+  }
+/* login-register  */
+.register-box.container {
+	display: block;
+}
+ 
+}
+
+/* small mobile :320px. */
+@media (min-width: 320px) and (max-width: 767px){
+ /*====================================================
+                 HEADER RESPONSIVE
+======================================================*/
+   .middle-menu {
+    display: block;
+  }
+  .middle-menu-text {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .log-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+
+  nav {
+    display: block;
+    height: 133px;
+    position: relative;
+  }
+  .navigation {
+    position: absolute;
+    width: 199px;
+    top: 131px;
+    right: 0;
+    z-index: 99;
+    margin: 0;
+    background: #fff;
+    transform-origin: right;
+    transition: 0.3s linear;
+    text-align: center;
+    transform: translateX(100%);
+    display: none;
+  }
+  .navigation li {
+    display: block;
+    margin: 10px;
+    text-align: left;
+  }
+  .navigation li a {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+    font-weight: 600;
+    padding: 15px;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+  }
+  .nav-toggle-label {
+    display: block;
+    top: -36%;
+    position: relative;
+    left: 92%;
+  }
+  .navigation.active {
+    transform: translateX(0);
+    display: block;
+  }
+  .top-header {
+    display: none;
+  }
+  .middle-header {
+    display: none;
+  }
+  .logo img {
+    max-width: 165px;
+  }
+  .log {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 9px;
+  }
+  .log-icon img {
+    margin-right: 17px;
+  }
+  .top-profile h5 {
+    font-size: 18px;
+  }
+  .action .menu.active {
+    width: 240px;
+  }
+  .menu.active {
+    margin-left: -67px;
+  }
+  /*====================================================
+                 FOOTER RESPONSIVE
+======================================================*/
+.fw{
+  font-weight: 600;
+  padding-right: 7px;
+}
+.down-menu {
+	margin-top: -200px !important;
+}
+.dropdown-menu.down-menu.show li a {
+	text-decoration: none;
+}
+.footer-hide{
+  display: none;
+}
+.responsive-footer{
+  display: flex;
+}
+.dropdown-menu {
+	border: none;
+}
+element {
+	margin-bottom: -186px;
+}
+.ipad-logo{
+  display: block;
+}
+.footer-logo{
+  display: none;
+}
+  .footer-navigation li a {
+    font-size: 10px;
+  }
+  .footer-nav {
+    display: flex;
+  }
+  .footer-navigation {
+    display: block;
+  }
+  .footer-right-middle-menuber {
+    display: none;
+  }
+  .footer {
+    padding: 0;
+  }
+
+  /*====================================================
+                 INDEX RESPONSIVE
+======================================================*/
+   /* slider */
+   .slider-content h1 {
+    font-size: 28px;
+  }
+  .slider-content p {
+    font-size: 18px;
+  }
+  .access-heading h2 {
+    font-size: 28px;
+  }
+   .slick-slide img {
+    display: none;
+  }
+  .slider-content {
+    margin-left: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .slider-active .slick-dots {
+    margin-top: 15px;
+    padding: 0;
+  } 
+  /* brand  */
+  .brand-area img {
+    margin-bottom: 25px;
+  }
+  /* access */
+  .access-heading {
+    display: block;
+    text-align: center;
+  }
+  .access-heading h2 {
+    padding-bottom: 20px;
+  }
+  .brand-area {
+    display: block;
+    text-align: center;
+  }
+  /* resource */
+  .resource-area {
+    display: block;
+  }
+  .resource-right h3 {
+    font-size: 20px;
+  }
+  .cap-img img {
+    width: 100%;
+  }
+  .resource-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .resource-item{
+    width: 100%;
+    height: auto;
+  }
+  .resource-item2 {
+    width: 100%;
+  }
+  .resource-items-container {
+    display: block;
+  }
+  .resource-item img {
+    height: auto;
+  }
+  .resource-item2 {
+    margin-top: 22px;
+  }
+  /* governance */
+  .governance-item {
+    height: auto;
+  }
+  .profile-icon a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  
+  .governance-container {
+    display: block;
+  }
+  .governance-item {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+  .govt-single-btn {
+    width: 45%;
+    margin-bottom: 19px;
+  }
+  /* security */
+  .security-items {
+    display: block;
+  }
+  .section-title h3 {
+    font-size: 19px;
+    padding: 20px 10px;
+  }
+  .security-item {
+    display: block;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .section-title .color-title {
+    font-size: 26px;
+    padding: 0;
+  }
+  /* budget */
+  .budget-area{
+    display: none;
+  }
+  .ipad-top-text span {
+    color: #F58220;
+    font-weight: 400;
+  }
+  .ipad-bottom-text span {
+    color: #F58220;
+    font-weight: 400;
+  }
+
+  .ipad-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ipad-bottom img{
+   padding: 0;
+  }
+  .ipad-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ipad-bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ipad-bottom-text p {
+    padding: 0 83px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .ipad-top-text p {
+    padding: 0 74px;
+    text-align: center;
+  }
+  .ipad-area {
+    padding: 50px 0;
+  }
+  /* unlock */
+  .unlock-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+  }
+  /* socio */
+  .socio-items {
+    display: block;
+  }
+  .socio-item {
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .socio-item img {
+    height: 70px;
+  }
+  /* environment */
+  .environment-item {
+    margin-bottom: 15px;
+  }
+  .environment-box {
+    display: block;
+  }
+  .environment-item p {
+    padding-right: 5px;
+  }
+/*====================================================
+               ABOUT RESPONSIVE
+======================================================*/
+.intro-area {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.intro-img img {
+	width: 100%;
+}
+.intro-text h2 {
+	font-size: 20px;
+	padding: 10px 10px;
+  margin-bottom: 10px;
+}
+.intro-text p {
+	padding: 10px;
+}
+/* description  */
+.description-text {
+	display: block;
+	margin-bottom: 20px;
+}
+.description-area {
+	padding: 0 30px;
+	margin-top: 50px;
+}
+.description-area h2 {
+	font-size: 18px;
+}
+.description-text p {
+	text-align: justify;
+}
+
+.tab{
+  display: none;
+}
+.accordion-button:focus {
+	box-shadow: none;
+}
+/*====================================================
+                 PORTAL RESPONSIVE
+======================================================*/
+   .register-input-area h2 {
+    font-size: 18px;
+  }
+  .register-box.container {
+    width: 275px;
+    padding: 20px;
+  }
+  .procurement-area h2 {
+    font-size: 22px;
+   }
+  .notice-fl {
+    display: block;
+  }
+  .notice-right {
+    padding-left: 0;
+  }
+  .register-input input {
+    width: 100%;
+  }
+  .register-content p {
+    padding: 0 6%;
+    font-size: 13px;
+  }
+  table th {
+    font-size: 16px;
+  }
+  /*====================================================
+                 IREEP RESPONSIVE
+======================================================*/
+
+  /* energy  */
+  .main-energy {
+    display: block;
+  }
+
+  .energy-img {
+    display: block;
+    padding: 50px 0;
+  }
+
+  .energy {
+    background: #f58220;
+    padding: 0;
+  }
+  .energy-title h2 {
+    font-size: 25px;
+  }
+  .energy-content {
+    padding: 0 30px;
+  }
+  .energy-content h2 {
+    font-size: 28px;
+  }
+  .energy-img img {
+    width: 100%;
+  }
+  /* press  */
+  .press-title h2 {
+    font-size: 28px;
+  }
+  .singles-press {
+    display: block;
+    font-size: 25px;
+  }
+  .single-press h2 {
+    font-size: 30px;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #contact-right h3 {
+    font-size: 28px;
+  }
+  .area-press {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .press-content p {
+    font-size: 13px;
+    margin-left: 0;
+    margin-top: 13px;
+  }
+  .press-content a {
+    text-decoration: none;
+    margin-left: 0;
+  }
+  .right-text h3 {
+    font-size: 19px;
+  }
+  .right-text li {
+    margin-top: -1px;
+    font-size: 12px;
+  }
+  /* environment */
+  .environment-img img {
+    display: none;
+  }
+ /*====================================================
+                 USER RESPONSIVE
+======================================================*/
+  .user-fast-box {
+    display: block;
+  }
+  .user-containt h3 {
+    font-size: 25px;
+  }
+  .user-img img {
+    width: 100% !important;
+    height: 250px;
+  }
+  .user-img {
+    width: 100% !important;
+    margin-right: 0;
+  }
+  .user-con {
+    padding: 0;
+  }
+  .user-containt span {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .upload-btn {
+    position: unset;
+    transform: unset;
+    width: 100%;
+  }
+  .upload-fl {
+    height: auto;
+  }
+  .upload-btn button {
+    width: 100%;
+    margin-bottom: 12px;
+    box-shadow: 0 0 10px #00000038;
+  }
+  .upload-btn button {
+    margin-left: 0;
+  }
+  .video-left {
+    padding-right: 10px;
+  }
+  .tab-area {
+    padding: 0;
+  }
+  .user-tab ul li button {
+    font-size: 13px;
+    padding-bottom: 24px;
+  }
+  .user-tab-info-box {
+    padding: 10px;
+  }
+  .video-right {
+    display: none;
+  }
+  .user-tab-info-box:nth-child(2) {
+    padding: 0 10px;
+    padding-right: 0;
+  }
+  .upload-fl input {
+    padding: 37px 40px;
+    margin-bottom: 15px;
+  }
+  .edit {
+    padding: 20px 10px;
+  }
+  .video-left {
+    width: 100%;
+  }
+  .single-info {
+    display: block;
+  }
+ /*====================================================
+                 NEW USER PAGE RESPONSIVE
+======================================================*/
+
+  table td {
+    padding: 10px 0px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .user-tab-info-box h2 {
+    font-size: 20px;
+  }
+ /*====================================================
+                 STACKHOLDER RESPONSIVE
+======================================================*/
+  .button-list ul li {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .hero__search--bar input {
+    font-size: 12px;
+  }
+.stkhldr-box h4 {
+  font-size: 20px;
+}
+.stkhldr-box h5 {
+  font-size: 14px;
+}
+
+
+.hero-content h1 {
+  font-size: 26px;
+}
+.hero__search--bar {
+  width: 100%;
+  margin-top: 20px;
+}
+.filter__Fx {
+  flex-wrap: wrap;
+  width: 100%;
+}
+.filter__single--select {
+  margin-bottom: 12px;
+  width: 100%;
+}
+.filter__title {
+  margin-bottom: 10px;
+}
+.filter__single--select.slect--sec {
+  width: 100%;
+}
+.filter__single--select.select--thr {
+	width: 100%;
+}
+
+}
+
+
+/* header  */
+@media (max-width: 1000px) {
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+}
+/* footer  */
+@media (max-width: 1000px) {
+  .bar4, .bar5, .bar6 {
+    width: 28px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar4 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar5 {opacity: 0;}
+  
+  .change .bar6 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  /* login-page  */
+  .register-box.container {
+    width: 90%;
+  }
+  .register-input input {
+    padding: 10px;
+  }
+  .inputBox input {
+    padding: 10px;
+  }
+  .login-btn button {
+    padding: 10px 40px;
+  }
+  .login-area {
+    padding-top: 20px;
+    padding-bottom: 90px;
+  }
+  .login-input-area h2 {
+    font-size: 17px;
+  }
+  .register-content span {
+    font-size: 14px;
+  }
+  /* register  */
+  .form-select-op {
+    padding: 10px;
+  }
+  .regi-btn button {
+    padding: 10px 40px;
+  }
+  .regi-area {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  } 
+
+  .three-fl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .fl{
+    display: block;
+  }
+.reg-fl {
+	width: 100%;
+}
+.form-select-op {
+	width: 100%;
+}
+.register-box.container {
+	display: block;
+}
+}
+
+/* 00000000000000000000000000 */
+@media (min-width: 0) and (max-width: 767px) {
+  #toggle {
+    right: 15px;
+  }
+  #toggle2 {
+    right: 15px;
+  }
+  .three-fl {
+    display: block;
+  }
+  .register-content p {
+    text-align: center;
+  }
+  .register-box.container {
+    display: block;
+  }
+  #toggle-new {
+    right: 10px;
+  }
+  #toggleOld {
+    right: 10px;
+  }
+  #toggle2-new {
+    right: 10px;
+  }
+}
