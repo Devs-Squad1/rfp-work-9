@@ -377,12 +377,18 @@
     position: absolute;
     left: 482px;
     padding: 60px 31px 50px 31px;
-    height: 100vh;
+    height: 110vh;
   }
   .sub-process-text h1 {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
+  }
+  .sub-fl {
+    display: block;
+  }
+  .mr-15 {
+    margin-right: 0;
   }
 }
 
@@ -1126,5 +1132,14 @@
   }
   .sub-process-text p {
     font-size: 16px;
+  }
+  .prev {
+    justify-content: center;
+  }
+  .prev-fl {
+    display: flex;
+  }
+  .mr-15 {
+    margin-right: 0;
   }
 }

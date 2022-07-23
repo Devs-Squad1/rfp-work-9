@@ -1176,7 +1176,7 @@ form .form-control {
   font-size: 17px;
   font-weight: 500;
   padding: 0 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #000;
 }
 
@@ -2152,7 +2152,7 @@ td a {
   left: 744px;
   top: 0px;
   z-index: 219;
-  padding: 60px 100px 50px 50px;
+  padding: 60px 80px 50px 50px;
 }
 .sub-p {
   margin-top: 160px;
@@ -2164,19 +2164,10 @@ td a {
   color: #0c4a7c;
   font-weight: 500;
   text-decoration: none;
+  font-size: 15px;
 }
 .sub-process-img img {
   width: 100%;
-}
-.inputBox {
-  width: 100%;
-  padding: 5px 0;
-  font-size: 16px;
-  margin: 10px 0;
-  border: none;
-  border-bottom: 2px solid #333;
-  outline: none;
-  resize: none;
 }
 .form-control:focus {
   color: #212529;
@@ -2185,4 +2176,35 @@ td a {
   outline: 0;
   box-shadow: none;
   border-bottom: 2px solid #e5e5e5;
+}
+.prev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.prev:hover {
+  background: #006532;
+  color: #fff;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+.prev i {
+  font-size: 21px;
+}
+.prev p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 10px;
+}
+.form-label {
+  font-size: 16px;
+  font-weight: 500;
+}
+.prev-fl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
