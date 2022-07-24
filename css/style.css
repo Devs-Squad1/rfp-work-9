@@ -2128,7 +2128,7 @@ td a {
 }
 .sub-fl {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .sub-process-input {
@@ -2156,10 +2156,11 @@ td a {
   top: 0px;
   z-index: 219;
   padding: 60px 80px 50px 50px;
+  width: 45%;
 }
 .sub-p {
   margin-top: 160px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: 060606;
 }
@@ -2343,6 +2344,49 @@ td a {
   border: 2px solid #006532;
   color: #006532;
   text-decoration: none;
-  padding: 4px 30px;
+  padding: 4px 44px;
   border-radius: 30px;
+}
+.rfp-log-btn:hover {
+  background: #006532;
+  color: #fff;
+  transition: 0.3s;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.rfp-login-btn {
+  text-align: center;
+}
+.rfp-login-right {
+  background-color: rgb(255, 255, 255);
+  box-shadow: -6.432px 21.039px 38px 0px rgba(0, 0, 0, 0.14);
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: 219;
+  padding: 60px 80px 50px 50px;
+  width: 35%;
+}
+.rfp-pass-btn-area {
+  display: flex;
+  flex-direction: column;
+}
+.rfp-pass-btn {
+  width: 100%;
+  border: 2px solid #006532;
+  background: #006532;
+  border-radius: 30px;
+  color: #fff;
+  padding: 8px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+.rfp-pass-btn:hover {
+  color: #006532;
+  border: 2px solid #006532;
+  background: transparent;
+  transition: 0.3s;
 }

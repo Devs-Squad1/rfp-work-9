@@ -385,11 +385,29 @@
   .sub-process-text p {
     font-size: 17px;
   }
-  .sub-fl {
-    display: block;
-  }
+
   .mr-15 {
     margin-right: 0;
+  }
+  .rfp-log-btn {
+    padding: 4px 27px;
+  }
+  .sub-p {
+    margin-top: 70px;
+  }
+  .rfp-login-right {
+    padding: 60px 20px 50px 20px;
+    width: 40%;
+  }
+  .rfp-log-btn {
+    padding: 4px 24px;
+  }
+  .rfp-pass-btn {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+  .sub-process-right {
+    width: 40%;
   }
 }
 
@@ -1151,6 +1169,7 @@
     position: unset;
     padding: 20px;
     box-shadow: none;
+    width: 100%;
   }
   .sub-process-top h3 {
     font-size: 20px;
@@ -1169,5 +1188,25 @@
   }
   .mr-15 {
     margin-right: 0;
+  }
+  .rfp-log-btn {
+    padding: 4px 25px;
+  }
+  .sub-p {
+    margin-top: 60px;
+  }
+  .sub-process-top {
+    margin-bottom: 50px;
+  }
+  .rfp-login-right {
+    width: 100%;
+  }
+  .rfp-login-right {
+    box-shadow: none;
+    padding: 40px 44px 20px 20px;
+    text-align: center;
+  }
+  .rfp-pass-btn {
+    font-size: 14px;
   }
 }
