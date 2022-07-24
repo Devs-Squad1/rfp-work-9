@@ -409,6 +409,11 @@
   .sub-process-right {
     width: 40%;
   }
+  .sub-process-top h3 {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: 700;
+  }
 }
 
 /* small mobile :320px. */
@@ -1110,6 +1115,7 @@
   /* confirmation area  */
   .confirmation-area {
     width: auto;
+    padding-top: 20px;
   }
   .confirmation-logo img {
     padding-bottom: 50px;
@@ -1194,9 +1200,11 @@
   }
   .sub-p {
     margin-top: 60px;
+    font-size: 14px;
   }
   .sub-process-top {
     margin-bottom: 50px;
+    text-align: center;
   }
   .rfp-login-right {
     width: 100%;

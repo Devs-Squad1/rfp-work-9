@@ -2390,3 +2390,7 @@ td a {
   background: transparent;
   transition: 0.3s;
 }
+.confirmation-fl {
+  display: flex;
+  justify-content: space-between;
+}
