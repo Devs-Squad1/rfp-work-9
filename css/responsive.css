@@ -1200,7 +1200,7 @@
   }
   .sub-p {
     margin-top: 60px;
-    font-size: 14px;
+    font-size: 15px;
   }
   .sub-process-top {
     margin-bottom: 50px;
@@ -1216,5 +1216,8 @@
   }
   .rfp-pass-btn {
     font-size: 14px;
+  }
+  .confirmtion-a {
+    font-size: 16px;
   }
 }
