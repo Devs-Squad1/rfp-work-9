@@ -380,9 +380,10 @@
     height: 110vh;
   }
   .sub-process-text h1 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .sub-process-text p {
+    font-size: 17px;
   }
   .sub-fl {
     display: block;
@@ -1088,6 +1089,30 @@
   .register-box.container {
     display: block;
   }
+  /* confirmation area  */
+  .confirmation-area {
+    width: auto;
+  }
+  .confirmation-logo img {
+    padding-bottom: 50px;
+  }
+  .confirmation-content h1 {
+    font-size: 20px;
+  }
+  .confirmation-content p {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  .login-now {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  .confirmation-fl {
+    display: block;
+  }
+  .confirm {
+    margin-bottom: 20px;
+  }
 }
 
 /* 00000000000000000000000000 */
@@ -1116,8 +1141,11 @@
   #toggle2-new {
     right: 10px;
   }
-  .sub-process-text h1 {
-    font-size: 22px;
+  .sub-process-left {
+    display: none;
+  }
+  .sub-process-1-area {
+    padding: 0;
   }
   .sub-process-right {
     position: unset;

@@ -37,7 +37,6 @@ ul {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 40px;
 }
 .pt {
   margin-top: 30px;
@@ -2088,9 +2087,13 @@ td a {
 .mr-15 {
   margin-right: 15px;
 }
+.mr-8 {
+  margin-right: 8px;
+}
 
 .sub-process-1-area {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 0;
 }
 .sub-process-img {
   padding: 10px 0;
@@ -2125,7 +2128,7 @@ td a {
 }
 .sub-fl {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .sub-process-input {
@@ -2149,7 +2152,7 @@ td a {
   background-color: rgb(255, 255, 255);
   box-shadow: -6.432px 21.039px 38px 0px rgba(0, 0, 0, 0.14);
   position: absolute;
-  left: 744px;
+  right: 0;
   top: 0px;
   z-index: 219;
   padding: 60px 80px 50px 50px;
@@ -2181,7 +2184,7 @@ td a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 10px;
+  padding: 6px 10px;
   cursor: pointer;
 }
 .prev:hover {
@@ -2195,7 +2198,7 @@ td a {
 }
 .prev p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   padding: 0 10px;
 }
@@ -2207,4 +2210,139 @@ td a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+/* submission-process-3  */
+.submission-process3-input {
+  /*! display: block; */
+  width: 100%;
+  padding: 6px;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #b7b7b7;
+  background-color: #fff;
+  background-image: url('https://i.ibb.co/LdK3vxs/Background-1.png');
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: none;
+  border-bottom: 2px solid #d4dde4;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-left: 0;
+}
+.complete-reg {
+  background: #006532;
+  padding: 5px 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  border: 2px solid #006532;
+  border-radius: 3px;
+}
+.complete-reg:hover {
+  color: #fff;
+}
+.confirm-p {
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: 060606;
+}
+.prev-fl {
+  display: flex;
+}
+.confirm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.confirm p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0%;
+  padding: 0 5px;
+}
+.key {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+/* confirmation-area */
+
+.confirmation-logo img {
+  max-width: 150px;
+  padding-bottom: 100px;
+}
+.confirmation-area {
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+}
+.confirmation-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #006532;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #187345;
+  margin-bottom: 25px;
+}
+.confirmation-content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.confirmtion-a {
+  color: #006532;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 20px;
+}
+.confirmtion-a:hover {
+  color: #006532;
+}
+.login-now {
+  background: #006532;
+  padding: 12px 50px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  border: 2px solid #006532;
+  border-radius: 3px;
+}
+.login-now:hover {
+  color: #006532;
+  background: transparent;
+  transition: 0.3s;
+}
+.dropdown-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding: 14px 18px;
+}
+/* rfp-login-page  */
+.forgot-a {
+  color: #006532;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+}
+.forgot-a:hover {
+  color: #006532;
+}
+.rfp-log-btn {
+  border: 2px solid #006532;
+  color: #006532;
+  text-decoration: none;
+  padding: 4px 30px;
+  border-radius: 30px;
 }
