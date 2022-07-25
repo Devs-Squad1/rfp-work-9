@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Page</title>
+    <!-- google fonts -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- <link rel="stylesheet" href="./css/ireep-user.css"> -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/photo-video-upload.css" />
+    <link rel="stylesheet" href="./css/post.css" />
+    <script
+      src="https://kit.fontawesome.com/1715d9e317.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Croppie -->
+    <link rel="stylesheet" href="./css/croppie.css" />
+  </head>
+
+  <body>
+    <!-- Submissions Process 1 -->
+    <section class="sub-process-1-area pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="proof-wrapper">
+              <div class="access-fl">
+                <div class="proof-logo">
+                  <a href="index.html"
+                    ><img src="img/logo/logo.png" alt=""
+                  /></a>
+                </div>
+                <h3>RFP Submissions</h3>
+              </div>
+              <div class="access-wrapper">
+                <!-- single-access  -->
+                <div class="single-access-fl">
+                  <div class="access-content">
+                    <span>Request for Proposal: Internet Service</span>
+                    <p>E-Rate FY 2021</p>
+                    <p>470 number: 210006351</p>
+                    <p>
+                      Penn Manor School District (PMSD) seeks proposals for
+                      fiber Internet service in support of teaching and learning
+                      programs at multiple school buildings. Enhanced
+                      high-capacity fiber services are required to support
+                      rapidly growing bandwidth needs and to meet the State
+                      Education Technology Directors Association (SETDA)
+                      benchmark bandwidth standard recognized in the FCC Second
+                      E-rate Modernization order.
+                    </p>
+                    <p>
+                      Please see the
+                      <span>PM FY2021 Internet Access RFP</span> for details.
+                    </p>
+                    <p>
+                      Proposal Due Date: ​Friday January 8, 2021 at 2:00 P.M.
+                      CAT.
+                    </p>
+                  </div>
+                  <div class="view-btn">
+                    <a href="#">View RFP</a>
+                  </div>
+                </div>
+                <!-- single-access  -->
+                <div class="single-access-fl">
+                  <div class="access-content">
+                    <span>Request for Proposal: Internet Service</span>
+                    <p>E-Rate FY 2021</p>
+                    <p>470 number: 210006351</p>
+                    <p>
+                      Penn Manor School District (PMSD) seeks proposals for
+                      fiber Internet service in support of teaching and learning
+                      programs at multiple school buildings. Enhanced
+                      high-capacity fiber services are required to support
+                      rapidly growing bandwidth needs and to meet the State
+                      Education Technology Directors Association (SETDA)
+                      benchmark bandwidth standard recognized in the FCC Second
+                      E-rate Modernization order.
+                    </p>
+                    <p>
+                      Please see the
+                      <span>PM FY2021 Internet Access RFP</span> for details.
+                    </p>
+                    <p>
+                      Proposal Due Date: ​Friday January 8, 2021 at 2:00 P.M.
+                      CAT.
+                    </p>
+                  </div>
+                  <div class="view-btn-gray">
+                    <a href="#">View RFP</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/photo-video-upload.js"></script>
+
+    <!-- Gallery -->
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName('mySlides');
+        let dots = document.getElementsByClassName('demo');
+        let captionText = document.getElementById('caption');
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(' active', '');
+        }
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].className += ' active';
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
+
+    <!-- Croppie -->
+    <script src="./js/croppie.js"></script>
+    <script>
+      const userImageContainer = document.querySelector('.user-img');
+      const profilePic = document.getElementById('profile-pic');
+      const uploadImage = document.getElementById('upload_image');
+      const modalClose = document.getElementById('modal-close');
+
+      userImageContainer.addEventListener('click', () => {
+        uploadImage.click();
+      });
+
+      modalClose.addEventListener('click', () => {
+        $('#uploadimageModal').modal('hide');
+      });
+
+      $(document).ready(function () {
+        $image_crop = $('#image_demo').croppie({
+          enableExif: true,
+          viewport: {
+            width: 200,
+            height: 200,
+            type: 'square', //circle
+          },
+          boundary: {
+            width: 300,
+            height: 300,
+          },
+        });
+
+        $('#upload_image').on('change', function () {
+          var reader = new FileReader();
+          reader.onload = function (event) {
+            $image_crop
+              .croppie('bind', {
+                url: event.target.result,
+              })
+              .then(function () {
+                console.log('jQuery bind complete');
+              });
+          };
+          reader.readAsDataURL(this.files[0]);
+          $('#uploadimageModal').modal('show');
+        });
+
+        $('.crop_image').click(function (event) {
+          $image_crop
+            .croppie('result', {
+              type: 'canvas',
+              size: 'viewport',
+            })
+            .then(function (response) {
+              profilePic.src = response;
+              $('#uploadimageModal').modal('hide');
+            });
+        });
+      });
+    </script>
+  </body>
+</html>
