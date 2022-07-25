@@ -2520,6 +2520,10 @@ td a {
   font-weight: 500;
   border-radius: 0 3px 3px 0;
 }
+.payment-upload-input a:hover {
+  color: #fff;
+  transition: 0.3s;
+}
 .payment-upload-bottom p {
   font-size: 30px;
   font-weight: 400;
@@ -2545,6 +2549,10 @@ td a {
   font-weight: 500;
   border-radius: 3px;
 }
+.payment-submit-input:hover {
+  color: #fff;
+  transition: 0.3s;
+}
 .payment-upload-bottom span {
   color: #e20928;
   font-weight: 400;
@@ -2554,4 +2562,96 @@ td a {
 .payment-upload-img img {
   width: 100%;
   margin-bottom: 20px;
+}
+/* rfp-submissions  */
+.rfp-submissions {
+  width: 400px;
+}
+.rfp-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  border-top: 2px solid #d2d2d2;
+  border-bottom: 2px solid #d2d2d2;
+  margin: 25px 0;
+  padding: 10px 25px;
+}
+.rfp-down-btn a {
+  text-decoration: none;
+  color: #006532;
+  border: 2px solid #006532;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.rfp-down-btn a:hover {
+  color: #006532;
+  transition: 0.3s;
+}
+.rfp-title-text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333c44;
+}
+.rfp-title-text span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #333c44;
+}
+.rfp-title-text p {
+  font-size: 15px;
+  color: #333c44;
+  padding-top: 15px;
+}
+.company-logo h3 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #333c44;
+  background: #e6e6e6;
+  height: 137px;
+  width: 301px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-name {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.company-name h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.company-name span {
+  font-size: 15px;
+}
+.company-name p {
+  font-size: 15px;
+  color: #747474;
+}
+.contact-info h4 {
+  font-size: 12px;
+  font-weight: 700;
+}
+.contact-info ul li {
+  list-style: none;
+}
+.contact-info ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+}
+.pr-7 {
+  padding-right: 7px;
+}
+.contact-info {
+  border-bottom: 2px solid #dadada;
+  margin-bottom: 25px;
+}
+.border-none {
+  border: none;
 }

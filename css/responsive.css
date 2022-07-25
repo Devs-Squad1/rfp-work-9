@@ -429,6 +429,20 @@
   .payment-upload-bottom p {
     font-size: 25px;
   }
+  /* rfp submissions  */
+  .company-logo h3 {
+    width: 265px;
+  }
+  .proof-wrapper {
+    width: 80%;
+  }
+  .rfp-title {
+    display: block;
+    padding: 20px;
+  }
+  .proof-fl h3 {
+    font-size: 22px;
+  }
 }
 
 /* small mobile :320px. */
@@ -1236,7 +1250,7 @@
     font-size: 16px;
   }
   .proof-fl h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
   .proof-fl {
     padding-top: 20px;
@@ -1287,11 +1301,22 @@
   }
   .payment-submit-input {
     width: 100%;
+    margin: 20px 0;
   }
   .proof-wrapper {
     text-align: left;
   }
   .payment-upload-bottom {
+    text-align: center;
+  }
+  .rfp-title {
+    display: block;
+    padding: 20px;
+  }
+  .company-name h3 {
+    font-size: 22px;
+  }
+  .rfp-sub-right-wrap {
     text-align: center;
   }
 }
