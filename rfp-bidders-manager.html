@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>rfp-submissions</title>
+    <title>rfp-bidders-manager</title>
     <!-- google fonts -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -25,6 +25,51 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/nice-select.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
+    <style>
+      h2 {
+        font-size: 35px;
+        text-align: center;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      table th {
+        text-align: left;
+        padding: 8px;
+        border: 2px solid #c9c9c9;
+        min-width: 150px;
+        font-size: 15px;
+        font-weight: 500;
+      }
+      table td {
+        text-align: left;
+        padding: 8px;
+        border: 2px solid #c9c9c9;
+        min-width: 150px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000000;
+      }
+      table th {
+        background-color: #efefef;
+        color: #1a1c1d;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      table {
+      }
+      table tr {
+        background-color: #fdfdfd;
+      }
+      .border-none-left {
+        border-left: none;
+      }
+      .border-none-right {
+        border-right: none;
+      }
+    </style>
   </head>
 
   <body>
@@ -33,57 +78,82 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-12">
-            <div class="proof-wrapper proof-wrapper-submissions">
-              <div class="payment-upload-fl proof-fl">
+            <div class="proof-wrapper proof-wrapper-bidder-p">
+              <div class="payment-upload-fl proof-fl-bidders">
                 <div class="proof-logo">
                   <a href="index.html"
                     ><img src="img/logo/logo.png" alt=""
                   /></a>
                 </div>
-                <h3>RFP Submissions</h3>
+                <h4>Bidders Manager</h4>
               </div>
-              <div class="rfp-submission-wrap">
-                <div class="rfp-title">
-                  <div class="rfp-title-text">
-                    <h4>RFP Title here</h4>
-                    <span>RFP Short description goes here.</span>
-                    <p>DATE</p>
-                  </div>
-                  <div class="rfp-down-btn">
-                    <a href="#">Download RFP</a>
-                  </div>
-                </div>
-                <div class="payment-upload-bottom">
-                  <div class="payment-upload-box">
-                    <div class="payment-upload-input">
-                      <input
-                        class="m-0"
-                        type="text"
-                        placeholder="Upload proof of payment"
-                      />
-                      <a href="#">Upload</a>
-                    </div>
 
-                    <a class="payment-submit-input" href="#">Submit</a>
-                  </div>
-                  <span class="m-0 d-block"
-                    >Only a .PDF file is acceptable.</span
-                  >
-                </div>
+              <!-- table  -->
+              <div style="overflow-x: auto">
+                <table>
+                  <tr>
+                    <th class="border-none-left">
+                      Company Name <i class="fas fa-sort"></i>
+                    </th>
+                    <th>Status <i class="fas fa-sort pd"></i></th>
+                    <th>Date <i class="fas fa-sort pd"></i></th>
+                    <th class="border-none-right pd">
+                      Status Changed by <i class="fas fa-sort pd"></i>
+                    </th>
+                  </tr>
+
+                  <tr>
+                    <td class="border-none-left">Company Name</td>
+                    <td>
+                      <a class="request-bid-btn" href="#">Request</a>
+                    </td>
+                    <td>5:52 PM</td>
+                    <td class="border-none-right">Name Surname</td>
+                  </tr>
+                  <tr>
+                    <td class="border-none-left">Company Name</td>
+                    <td>
+                      <a class="request-bid-btn approve-bid-btn" href="#"
+                        >Approved</a
+                      >
+                    </td>
+                    <td>5:52 PM</td>
+                    <td class="border-none-right"></td>
+                  </tr>
+                  <tr>
+                    <td class="border-none-left">Company Name</td>
+                    <td>
+                      <a class="request-bid-btn sub-bid-btn" href="#"
+                        >Submitted</a
+                      >
+                    </td>
+                    <td>5:52 PM</td>
+                    <td class="border-none-right"></td>
+                  </tr>
+                  <tr>
+                    <td class="border-none-left">Company Name</td>
+                    <td>
+                      <a class="request-bid-btn revok-bid-btn" href="#"
+                        >Revoked</a
+                      >
+                    </td>
+                    <td>5:52 PM</td>
+                    <td class="border-none-right"></td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
           <div class="col-md-4 col-12">
             <div class="sub-process-right rfp-submissions">
               <div class="rfp-sub-right-wrap">
-                <div class="company-logo">
-                  <h3>Company Logo</h3>
-                </div>
-
                 <div class="company-name">
-                  <h3>Company Name</h3>
-                  <span> 2000/00001/07</span>
-                  <p>B-BBEE LEVEL Status</p>
+                  <div class="profile-photo-bidders mb-4">
+                    <img src="img/sub-process/pro-photo.png" alt="" />
+                  </div>
+                  <h3>Name Surname</h3>
+                  <span>Company Name</span>
+                  <p>User Level e.g. Administrator</p>
                 </div>
                 <!-- CONTACT INFORMATION  -->
                 <div class="contact-info">

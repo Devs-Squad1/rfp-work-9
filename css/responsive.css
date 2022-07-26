@@ -434,7 +434,7 @@
     width: 265px;
   }
   .proof-wrapper {
-    width: 80%;
+    width: 100%;
   }
   .rfp-title {
     display: block;
@@ -442,6 +442,11 @@
   }
   .proof-fl h3 {
     font-size: 22px;
+  }
+  .proof-wrapper-submissions,
+  .proof-wrapper-submitted-p,
+  .proof-wrapper-bidder-p {
+    width: 80%;
   }
 }
 
@@ -1241,7 +1246,7 @@
   .rfp-login-right {
     box-shadow: none;
     padding: 40px 44px 20px 20px;
-    text-align: center;
+    /*! text-align: center; */
   }
   .rfp-pass-btn {
     font-size: 14px;
@@ -1251,6 +1256,7 @@
   }
   .proof-fl h3 {
     font-size: 16px;
+    text-align: center;
   }
   .proof-fl {
     padding-top: 20px;
@@ -1318,5 +1324,14 @@
   }
   .rfp-sub-right-wrap {
     text-align: center;
+  }
+  /* bidders  */
+  .proof-fl-bidders h4,
+  .company-name h3 {
+    font-size: 18px;
+  }
+  .proof-fl-bidders {
+    padding-top: 20px;
+    text-align: right;
   }
 }

@@ -2343,14 +2343,15 @@ td a {
 }
 .rfp-log-btn {
   border: 2px solid #006532;
-  color: #006532;
+  color: #fff;
   text-decoration: none;
   padding: 4px 44px;
   border-radius: 30px;
+  background: #006532;
 }
 .rfp-log-btn:hover {
-  background: #006532;
-  color: #fff;
+  background: transparent;
+  color: #006532;
   transition: 0.3s;
 }
 .mr-20 {
@@ -2654,4 +2655,79 @@ td a {
 }
 .border-none {
   border: none;
+}
+/* rfp submitted  */
+.rfp-submited-text {
+  display: flex;
+  justify-content: space-around;
+}
+.pd {
+  padding: 0 5px;
+  margin-bottom: 0%;
+}
+.rfp-submitted-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  border-bottom: 2px solid #d2d2d2;
+  padding: 10px 25px;
+}
+.bd-top {
+  border-top: 2px solid #d2d2d2;
+}
+.rfp-submitted-table {
+  margin-bottom: 30px;
+}
+.rfp-submitted-table h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+/* bidders manager  */
+.proof-fl-bidders h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.profile-photo-bidders h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333c44;
+  background: #e6e6e6;
+  height: 110px;
+  width: 110px;
+  border-radius: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+}
+.request-bid-btn {
+  background: #f58220;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 100px;
+  height: 25px;
+}
+.request-bid-btn:hover,
+.approve-bid-btn:hover,
+.sub-bid-btn:hover,
+.revok-bid-btn:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+.approve-bid-btn {
+  background: #006532;
+}
+.sub-bid-btn {
+  background: #0c4a7c;
+}
+.revok-bid-btn {
+  background: #d21f33;
 }
