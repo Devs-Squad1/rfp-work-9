@@ -2492,12 +2492,16 @@ td a {
 .payment-upload-content p {
   font-weight: 500;
 }
-.payment-upload-input input {
+#up-input {
+  display: none;
+}
+
+.payment-upload-input {
   width: 100%;
   outline: 0;
   border: 2px solid #b8b8b8;
   margin-bottom: 15px;
-  padding: 5px 10px;
+  padding: 2px 10px;
   border-radius: 3px 0px 0 3px;
   color: #444;
   font-size: 16px;
@@ -2507,8 +2511,16 @@ td a {
   display: flex;
   justify-content: center;
   width: 85%;
+  position: relative;
+  height: 41px;
+  align-items: center;
 }
-.payment-upload-input a {
+.up-div {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.up-div a {
   background: #b8b8b8;
   color: #fff;
   text-decoration: none;
@@ -2519,7 +2531,6 @@ td a {
   align-items: center;
   border: 2px solid #b8b8b8;
   font-weight: 500;
-  border-radius: 0 3px 3px 0;
 }
 .payment-upload-input a:hover {
   color: #fff;

@@ -55,14 +55,16 @@
                 </div>
                 <div class="payment-upload-bottom">
                   <div class="payment-upload-box">
-                    <div class="payment-upload-input">
+                    <div id="show-file-name" class="payment-upload-input">
                       <input
+                        id="up-input"
                         class="m-0"
-                        type="text"
+                        type="file"
                         placeholder="Upload proof of payment"
                       />
-                      <a href="#">Upload</a>
-                      <!-- <input type="file" class="" /> -->
+                      <div class="up-div">
+                        <a id="up-file" href="#">Upload</a>
+                      </div>
                     </div>
 
                     <a class="payment-submit-input" href="#">Submit</a>
@@ -152,8 +154,18 @@
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <script src="./js/main.js"></script>
     <script src="./js/photo-video-upload.js"></script>
+    <script>
+      const fileInput = document.getElementById('up-input');
+
+      const uploadBtn = document.getElementById('up-file');
+
+      uploadBtn.addEventListener('click', () => {
+        fileInput.click();
+        document.getElementById('show-file-name').innerHTML =
+          fileInput.files[0].name;
+      });
+    </script>
   </body>
 </html>
